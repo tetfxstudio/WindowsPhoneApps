@@ -1,0 +1,20 @@
+A Windows Phone app that provides the IP address of the phone. There is also a share via email feature.
+
+Available for free at Windows Phone Marketplace: http://www.windowsphone.com/en-US/apps/00218e00-896e-e011-81d2-78e7d1fa76f8
+
+The myip.php file that is downloaded from the App tis the following:
+
+<?php
+ 
+function VisitorIP()
+{ 
+  if(isset($_SERVER['HTTP_X_FORWARDED_FOR']))
+    $TheIp=$_SERVER['HTTP_X_FORWARDED_FOR'];
+  else $TheIp=$_SERVER['REMOTE_ADDR'];
+ 
+  return trim($TheIp);
+}
+
+echo VisitorIP();
+
+?>

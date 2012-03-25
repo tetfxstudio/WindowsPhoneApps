@@ -1,0 +1,55 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Cryptography.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800" 
+    d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <controls:Panorama Title="Cryptography">
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="Encrypt">
+                <Grid>
+                    <TextBlock Height="33" HorizontalAlignment="Left" Margin="1,0,0,0" Name="textBlock2" Text="Clean text:" VerticalAlignment="Top" Width="417" />
+                    <TextBox Height="150" HorizontalAlignment="Left" Margin="-3,25,0,0" Name="cleanInputTextBox" Text="" VerticalAlignment="Top" Width="420" AcceptsReturn="True" />
+                    <TextBlock Height="30" HorizontalAlignment="Left" Margin="9,200,0,0" Name="textBlock3" Text="Encrypted text:" VerticalAlignment="Top" Width="401" />
+                    <TextBox Height="150" HorizontalAlignment="Left" Margin="-4,223,0,0" Name="cipherOutputTextBox" Text="" VerticalAlignment="Top" Width="419" />
+                    <Button Content="Encrypt" Height="72" HorizontalAlignment="Center" Name="encryptButton" VerticalAlignment="Bottom" Width="160" Click="encryptButton_Click" />
+                </Grid>
+            </controls:PanoramaItem>
+
+            <controls:PanoramaItem Header="Decrypt">
+                <Grid>
+                    <TextBlock Height="33" HorizontalAlignment="Left" Margin="1,0,0,0" Name="textBlock4" Text="Encrypted text:" VerticalAlignment="Top" Width="417" />
+                    <TextBox Height="150" HorizontalAlignment="Left" Margin="-3,25,0,0" Name="cipherInputTextBox" Text="" VerticalAlignment="Top" Width="420" AcceptsReturn="True" />
+                    <TextBlock Height="30" HorizontalAlignment="Left" Margin="9,200,0,0" Name="textBlock5" Text="Clean text:" VerticalAlignment="Top" Width="401" />
+                    <TextBox Height="150" HorizontalAlignment="Left" Margin="-4,223,0,0" Name="cleanOuputTextBox" Text="" VerticalAlignment="Top" Width="419" />
+                    <Button Content="Decrypt" Height="72" HorizontalAlignment="Center" Name="decryptButton" VerticalAlignment="Bottom" Width="160" Click="decryptButton_Click" />
+                </Grid>
+
+            </controls:PanoramaItem>
+
+            <controls:PanoramaItem Header="About">
+                <Grid>
+                    <TextBlock HorizontalAlignment="Left" Margin="1,-1,0,111" x:Name="textBlock1" Width="416" TextWrapping="Wrap" Height="388"><Run Text="A very simple App that allows you to encrypt and decrypt text! The cryptography method that is used is a variation of Caesar's cipher."/>
+                    <LineBreak/><Run/><LineBreak/><Run Text="version 1.0"/><LineBreak/><Run FontWeight="Bold"/><LineBreak/><Run FontWeight="Bold" Text="Coding - Design"/><LineBreak/><Run FontSize="18.667" Text="Panos Sakkos"/><LineBreak/><LineBreak/><Run/><LineBreak/><Run Text="Support/Questions"/></TextBlock>
+                    <HyperlinkButton Content="twitter.com/PanosSakkos" Margin="-12,295,181,169"  Name="twitterLink" Click="twitterLink_Click" Height="34" Width="251" />
+                    <TextBlock Height="107" Margin="7,0,217,19" TextWrapping="Wrap" Text="Licensed under Microsoft Permissive License" VerticalAlignment="Bottom"/>
+
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

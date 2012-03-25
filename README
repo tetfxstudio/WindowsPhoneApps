@@ -1,0 +1,54 @@
+Author:		Panos Sakkos
+Email: 		panos.sakkos@gmail.com
+
+		+----+
+		|MyIP|
+		+----+
+		
+A Windows Phone app that provides the IP address of the phone. There is also a share via email feature.
+
+Available for free at Windows Phone Marketplace: http://www.windowsphone.com/en-US/apps/00218e00-896e-e011-81d2-78e7d1fa76f8
+
+The myip.php file that is downloaded from the App is the following:
+
+<?php
+ 
+function VisitorIP()
+{ 
+  if(isset($_SERVER['HTTP_X_FORWARDED_FOR']))
+    $TheIp=$_SERVER['HTTP_X_FORWARDED_FOR'];
+  else $TheIp=$_SERVER['REMOTE_ADDR'];
+ 
+  return trim($TheIp);
+}
+
+echo VisitorIP();
+
+?>
+
+		+-----------------+
+		|PasswordGenerator|
+		+-----------------+
+
+An app for Windows Phones that generates strong passwords. The user can them email the generated password.
+
+Available for free at the Windows Phone Marketplace: http://www.windowsphone.com/en-US/apps/b42772db-70aa-e011-a53c-78e7d1fa76f8
+
+		+------------+
+		|Cryptography|
+		+------------+
+		
+A Windows Phone App that provides simple encryption and decryption, by using an algorithm variant to Caesar's Encryption. 
+
+Available for free at Windows Phone Marketplace: http://www.windowsphone.com/en-US/apps/f37056b7-81aa-e011-a53c-78e7d1fa76f8
+
+		+-----------------+
+		|PasswordGenerator|
+		+-----------------+
+		
+A (very) simple Windows Phone app that provides a Lorem Ipsum-like text that can be copied or emailed.
+Suitable for begginers in Windows Phone Development ;)
+
+The app is available for free at Windows Phone Marketplace: http://www.windowsphone.com/en-US/apps/d14a5fa4-40aa-e011-a53c-78e7d1fa76f8
+
+

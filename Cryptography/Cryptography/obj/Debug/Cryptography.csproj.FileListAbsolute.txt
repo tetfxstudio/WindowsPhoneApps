@@ -1,0 +1,13 @@
+C:\Users\panos\Desktop\Cryptography\Cryptography\Bin\Debug\Cryptography.dll
+C:\Users\panos\Desktop\Cryptography\Cryptography\Bin\Debug\Cryptography.pdb
+C:\Users\panos\Desktop\Cryptography\Cryptography\Bin\Debug\AppManifest.xaml
+C:\Users\panos\Desktop\Cryptography\Cryptography\Bin\Debug\Cryptography.xap
+C:\Users\panos\Desktop\Cryptography\Cryptography\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\panos\Desktop\Cryptography\Cryptography\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\panos\Desktop\Cryptography\Cryptography\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\panos\Desktop\Cryptography\Cryptography\obj\Debug\App.g.i.cs
+C:\Users\panos\Desktop\Cryptography\Cryptography\obj\Debug\MainPage.g.i.cs
+C:\Users\panos\Desktop\Cryptography\Cryptography\obj\Debug\Cryptography.g.resources
+C:\Users\panos\Desktop\Cryptography\Cryptography\obj\Debug\Cryptography.dll
+C:\Users\panos\Desktop\Cryptography\Cryptography\obj\Debug\Cryptography.pdb
+C:\Users\panos\Desktop\Cryptography\Cryptography\obj\Debug\XapCacheFile.xml

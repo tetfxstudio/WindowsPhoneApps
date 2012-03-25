@@ -1,0 +1,12 @@
+C:\Users\panos\Desktop\LoremIpsum\LoremIpsum\Bin\Debug\LoremIpsum.dll
+C:\Users\panos\Desktop\LoremIpsum\LoremIpsum\Bin\Debug\LoremIpsum.pdb
+C:\Users\panos\Desktop\LoremIpsum\LoremIpsum\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\panos\Desktop\LoremIpsum\LoremIpsum\obj\Debug\App.g.i.cs
+C:\Users\panos\Desktop\LoremIpsum\LoremIpsum\obj\Debug\About.g.i.cs
+C:\Users\panos\Desktop\LoremIpsum\LoremIpsum\obj\Debug\MainPage.g.i.cs
+C:\Users\panos\Desktop\LoremIpsum\LoremIpsum\obj\Debug\LoremIpsum.g.resources
+C:\Users\panos\Desktop\LoremIpsum\LoremIpsum\obj\Debug\LoremIpsum.dll
+C:\Users\panos\Desktop\LoremIpsum\LoremIpsum\obj\Debug\LoremIpsum.pdb
+C:\Users\panos\Desktop\LoremIpsum\LoremIpsum\Bin\Debug\AppManifest.xaml
+C:\Users\panos\Desktop\LoremIpsum\LoremIpsum\Bin\Debug\LoremIpsum.xap
+C:\Users\panos\Desktop\LoremIpsum\LoremIpsum\obj\Debug\XapCacheFile.xml
